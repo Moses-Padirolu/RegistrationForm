@@ -6,7 +6,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #ffffff;
-    color: #000000;
+    /* color: #000000; */
   }
   
   h2{
@@ -25,6 +25,12 @@ body {
     text-align: center;
   }
   
+  img{
+    height:180px;
+    width: 400px;
+    border-radius: 5px;
+  }
+
   button {
     padding: 10px 20px;
     color:green;
@@ -43,6 +49,11 @@ body {
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #44ff00;
+  }
+
+  label{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
   }
   .dark-mode {
     background-color: #000000;
@@ -135,6 +146,28 @@ body {
     color: #000000;
   }
   
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #09ff00;
+  color: #66ff00; 
+}
+
+.dark-mode input[type="text"],
+.dark-mode input[type="email"],
+.dark-mode input[type="password"],
+.dark-mode input[type="tel"],
+.dark-mode select {
+  color: #77ff00;
+}
+
+#gender{
+  background-color: black;
+}
   /* 
   .csidecontainerbox:hover{
     border:1px solid rgb(255, 0, 0);
